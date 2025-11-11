@@ -23,5 +23,3 @@ def test_adjacent_5():
 def test_non_adjacent_duplicate():
     L = [1, 2, 3, 4, 2]
     assert has_adjacent_duplicate(L) == False
-        
-
